@@ -1,0 +1,89 @@
+@charset "UTF-8";
+body {
+  background: rgba(0, 0, 0, 0.9647058824);
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1440px;
+}
+.wrapper_header {
+  background: url(/img/завантаження\ 1.png);
+  height: 1081px;
+}
+.wrapper_header_textAndButton {
+  padding-top: 405px;
+  display: flex;
+  width: 479px;
+  height: 296px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 69px;
+}
+.wrapper_header_textAndButton_title {
+  width: 479px;
+  font-family: "Lobster", sans-serif;
+  font-size: 64px;
+  text-align: center;
+  color: white;
+}
+.wrapper_header_textAndButton_button {
+  width: 329px;
+  height: 67px;
+  border-radius: 8px;
+  background: linear-gradient(182deg, #F00 1.77%, rgba(77, 7, 7, 0) 98.24%);
+  border: none;
+  color: white;
+  font-family: "Lobster", sans-serif;
+  font-size: 32px;
+  cursor: pointer;
+}
+.wrapper_main {
+  display: flex;
+  height: 1597px;
+  background: #0F0110;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 206px;
+  border-bottom: 2px solid #414040;
+}
+.wrapper_main_card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 550px;
+  background: #333;
+  text-align: center;
+  row-gap: 13px;
+}
+.wrapper_main_card_img {
+  width: 100px;
+  height: 293px;
+}
+.wrapper_main_card_name {
+  font-family: "Lobster Two", sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+  color: white;
+}
+.wrapper_main_card_price {
+  color: white;
+  font-family: "Mako", sans-serif;
+  font-size: 40px;
+}
+.wrapper_main_card_button {
+  width: 216px;
+  height: 50px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #E00000 0%, rgba(48, 48, 48, 0) 100%);
+  border: none;
+  color: white;
+  font-family: "Mako", sans-serif;
+  font-size: 32px;
+  cursor: pointer;
+}
+.wrapper_footer {
+  height: 408px;
+  background: #0F0110;
+}/*# sourceMappingURL=style.css.map */
