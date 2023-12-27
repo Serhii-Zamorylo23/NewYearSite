@@ -84,6 +84,48 @@ body {
   cursor: pointer;
 }
 .wrapper_footer {
+  display: flex;
   height: 408px;
   background: #0F0110;
+  padding-top: 14px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+.wrapper_footer_firstCont {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  color: white;
+}
+.wrapper_footer_firstCont_contacts {
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+}
+.wrapper_footer_firstCont_number {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+}
+.wrapper_footer_firstCont_email {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+}
+.wrapper_footer_secodCont {
+  display: flex;
+  flex-direction: column;
+  width: 422px;
+  height: 220px;
+  color: rgb(246, 246, 246);
+  row-gap: 23px;
+}
+.wrapper_footer_secodCont_schedule {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+}
+.wrapper_footer_secodCont_days {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+}
+.wrapper_footer_secodCont_weekend {
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
 }/*# sourceMappingURL=style.css.map */
