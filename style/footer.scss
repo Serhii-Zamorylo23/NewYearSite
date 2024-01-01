@@ -1,0 +1,45 @@
+.footer{
+    display: flex;
+    height: 408px;
+    background: #0F0110;
+    padding-top: 14px;
+    column-gap: 80px;
+    &_firstCont{
+        display: flex;
+        flex-direction: column;
+        row-gap: 18px;
+        color: white;
+        &_contacts{
+            font-family: 'Inter', sans-serif;
+            font-size: 64px;
+        }
+        &_number{
+            font-family: 'Inter', sans-serif;
+            font-size: 48px;
+        }
+        &_email{
+            font-family: 'Inter', sans-serif;
+            font-size: 48px;
+        }
+    }
+    &_secodCont{
+        display: flex;
+        flex-direction: column;
+        width: 422px;
+        height: 220px;
+        color: rgb(246, 246, 246);
+        row-gap: 23px;
+        &_schedule{
+            font-family: 'Inter', sans-serif;
+            font-size: 48px;
+        }
+        &_days{
+            font-family: 'Inter', sans-serif;
+            font-size: 48px;
+        }
+        &_weekend{
+            font-family: 'Inter', sans-serif;
+            font-size: 48px;
+        }
+    }
+}

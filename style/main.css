@@ -1,0 +1,44 @@
+.main {
+  display: flex;
+  height: 1597px;
+  background: #0F0110;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 206px;
+  border-bottom: 2px solid #414040;
+}
+.main_card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 550px;
+  background: #333;
+  text-align: center;
+  row-gap: 13px;
+}
+.main_card_img {
+  width: 100px;
+  height: 293px;
+}
+.main_card_name {
+  font-family: "Lobster Two", sans-serif;
+  font-size: 31px;
+  font-weight: 400;
+  color: white;
+}
+.main_card_price {
+  color: white;
+  font-family: "Mako", sans-serif;
+  font-size: 40px;
+}
+.main_card_button {
+  width: 216px;
+  height: 50px;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #E00000 0%, rgba(48, 48, 48, 0) 100%);
+  border: none;
+  color: white;
+  font-family: "Mako", sans-serif;
+  font-size: 32px;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
