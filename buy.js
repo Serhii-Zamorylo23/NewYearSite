@@ -40,9 +40,13 @@ const ProductsArr=[
     },
 ]
 const renderBasket=()=>{
-    BasketContainer.innerHTML+=''
+    console.log(BasketProduct)
+    BasketContainer.innerHTML = `
+     <h1 class="basketTest">Basket</h1>
+    `
     ProductsArr.forEach((ItemProducts)=>{
         if(BasketProduct.includes(ItemProducts.id)){
+        
             BasketContainer.innerHTML+=`
             <div class="main_card">
                 <div class="main_card_img">
@@ -55,6 +59,7 @@ const renderBasket=()=>{
             `
         }
     })
+    console.log(BasketContainer.innerHTML)
 }
 const renderProducts =()=>{
     BuyContainer.innerHTML=''
@@ -72,11 +77,14 @@ const renderProducts =()=>{
     const BuyButtons=document.querySelectorAll('.main_card_button')
     BuyButtons.forEach(item =>{
         item.addEventListener('click', () => { 
+            
             const BuyId = item.getAttribute("idProducts")
+            console.log(BuyId)
             BasketProduct.push(BuyId)
             renderBasket()
         })
     })
+
 
 }
 renderProducts() 
